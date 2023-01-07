@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url(https://fonts.googleapis.com/css2?family=Montserrat);
+
+        html,
+        body {
+            font-family: "Montserrat, serif"
+        }
+    </style>
+    <!-- Я понимаю, что у меня есть проблема сo шрифтом, но я не понимаю в чем именно проблема. 
+        И не со всем до конца понимаю как задать одинаковые области в таблицах с другими способами, а не через width: auto; height: 200px.-->
+</head>
+<body>
+    <table border=1 style="border-collapse: collapse; text-align: center; margin: auto; border-color: #353942; width: auto; height: 200px; font-family:Arial, Helvetica, sans-serif">
+        <thead style="background-color:#353942; color: white; height: 50px">
+            <tr>
+                <th>Сотрудники</th>
+                <th>Зарплата</th>
+                <th>Бонусы</th>
+                <th scope="col">Менеджер</th>
+            </tr>
+        </thead>
+        <tbody style="background-color: #2e3337; color: white; border-color: #353942">
+            <tr>
+                <td>Алексей Примадонин</td>
+                <td>750$</td>
+                <td>63$</td>
+                <td rowspan=2 style="vertical-align:middle">Ходовёнок Хекслетович</td>
+            </tr>
+            <tr>
+                <td>Вениамин Редакторович</td>
+                <td>1200$</td>
+                <td>0$</td>
+            </tr>
+            <tr>
+                <td>Джедай Падаванов</td>
+                <td>500$</td>
+                <td>100$</td>
+                <td>Королева Верстальщина</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="4"; style="text-align:right;background-color: #2e3337 ; color:white;">Всего:2613$</th>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
