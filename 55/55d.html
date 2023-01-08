@@ -5,44 +5,147 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calculator</title>
     <style>
         .calculator {
             border: 3px solid #6e9c9e;
+            width: 280px;
+            height: 450px;
+            border-radius: 10px;
+
+        }
+
+        .name {
+            background-color: #6e9c9e;
+            color: white;
+            text-align: right;
+            width: 280px;
+            height: 40px;
+            margin-top: 15px;
+
+        }
+
+        h4 {
+            padding-right: 10px;
+            padding-top: 10px;
+
+        }
+
+        .text input {
+            margin-top: 15px;
+            width: 250px;
+            height: 25px;
+            border: 3px solid #6e9c9e;
+            border-radius: 5px;
+            text-align: right;
+        }
+
+        .text {
+            text-align: center;
+
+        }
+        .colortext {
+            background-color: white;
+            color:#6e9c9e;
+        }
+
+        .place {
+            width: 80px;
+            height: 25px;
+            background-color: #6e9c9e;
+            margin-top: 10px;
+            margin-left: auto;
+            margin-right: 12px;
+
+        }
+
+        button {
+            border: 3px solid #6e9c9e;
+            border-radius: 10px;
+            color: #6e9c9e;
+            background-color: white;
+            width: 55px;
+            height: 56px;
+            margin-top: 10px;
+            margin-left: 8px;
+
+        }
+
+        button:hover {
+            background-color: #6e9c9e;
+            color: white;
+        }
+
+        button:active {
+            background-color: #60898b;
         }
     </style>
 </head>
 
 <body>
     <div class="calculator">
-        <div class="name">Casio 3234</div>
-        <div class="text"></div>
+        <div class="name">
+            <h4>Casio 3234</h4>
+        </div>
+        <div class="text"><input class="colortext"></div>
         <div class="place"></div>
         <div class="buttons">
             <table>
                 <tr>
-                    <td>12</td>
-                    <td>8</td>
-                    <td>9</td>
-                    <td>+</td>
+                    <td><button>
+                            <h3>7</h3>
+                        </button></td>
+                    <td><button>
+                            <h3>8</h3>
+                        </button></td>
+                    <td><button>
+                            <h3>9</h3>
+                        </button></td>
+                    <td><button>
+                            <h3>+</h3>
+                        </button></td>
                 </tr>
                 <tr>
-                    <td>4</td>
-                    <td>5</td>
-                    <td>6</td>
-                    <td>-</td>
+                    <td><button>
+                            <h3>4</h3>
+                        </button></td>
+                    <td><button>
+                            <h3>5</h3>
+                        </button></td>
+                    <td><button>
+                            <h3>6</h3>
+                        </button></td>
+                    <td><button>
+                            <h3>-</h3>
+                        </button></td>
                 </tr>
                 <tr>
-                    <td>1</td>
-                    <td>2</td>
-                    <td>3</td>
-                    <td>/</td>
+                    <td><button>
+                            <h3>1</h3>
+                        </button></td>
+                    <td><button>
+                            <h3>2</h3>
+                        </button></td>
+                    <td><button>
+                            <h3>3</h3>
+                        </button></td>
+                    <td><button>
+                            <h3>/</h3>
+                        </button></td>
                 </tr>
                 <tr>
-                    <td>,</td>
-                    <td>0</td>
-                    <td>=</td>
-                    <td>*</td>
+                    <td><button>
+                            <h3>,</h3>
+                        </button></td>
+                    <td><button>
+                            <h3>0</h3>
+                        </button></td>
+                    <td><button>
+                            <h3>=</h3>
+                        </button></td>
+                    <td><button>
+                            <h3>*</h3>
+                        </button></td>
                 </tr>
             </table>
         </div>
