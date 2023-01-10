@@ -7,6 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Novik Denis</title>
     <style>
+        .container {
+            width: 1445px;
+            height: 4759px;
+            top: 768px;
+            background-color: white;
+        }
+
         ul {
             list-style: none;
         }
@@ -21,9 +28,36 @@
             text-align: center;
         }
 
+        .name {
+            text-align: center;
+        }
+
         .info {
             background-color: #f6f6f6;
+            text-align: center;
+            width: 1445px;
+            height: 506px;
+        }
 
+        .programs {
+            text-align: center;
+            width: 1445px;
+            height: 506px;
+        }
+
+        .programs img {
+            display: inline;
+        }
+
+        .works {
+            text-align: center;
+            background-color: #f6f6f6;
+            width: 1445px;
+            height: 2253px;
+        }
+
+        .works a {
+            color: black;
         }
     </style>
 </head>
@@ -41,7 +75,7 @@
                 <li><a href="#">Contacts</a></li>
                 <hr>
             </ul>
-
+            <!--внимание на классы! не сделала горизонт. меню-->
         </div>
         <div class="main_content">
             <div class="name">
@@ -49,7 +83,7 @@
                 <h1>Novik</h1>
                 <p>UX | UI designer</p>
                 <p>24 years old, Minsk</p>
-                <p>RU | ENG</p>
+                <h4>RU | ENG</h4>
                 <img src="Denis.jpg">
             </div>
             <div class="info">
@@ -66,8 +100,29 @@
                     with wonderful people.
                 </p>
             </div>
+            <div class="programs">
+                <h1>Skills</h1>
+                <p>I work in such programs as</p>
+                <img src="Ps.png">
+                <img src="Ai.png">
+                <img src="Ae.png">
+                <img src="Figma.png">
+            </div>
+            <div class="works">
+                <h1>Portfolio</h1>
+                <img src="woman.jpg">
+                <p><a href="#">Online fashion store - Homepage</a></p>
+                <img src="reebok_web.jpg">
+                <p><a href="#">Reebok Store - Concept</a></p>
+                <img src="camera.jpg">
+                <p><a href="#">Braun Landing Page - Concept</a></p>
+            </div>
         </div>
-        <div class="footer"></div>
+        <div class="footer">
+            <div class="contacts">
+                <h1>Contacts</h1>
+            </div>
+        </div>
     </div>
 </body>
 
